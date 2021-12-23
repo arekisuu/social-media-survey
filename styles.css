@@ -1,0 +1,62 @@
+body {
+  background-color: #34cfeb;
+  font-family: Trebuchet MS;
+  text-align: center;
+}
+
+form {
+  background-color: #fff;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 30px 20px;
+  text-align: left;
+}
+
+textarea {
+  resize: none;
+  margin-bottom: 5px;
+  width: 90%;
+  height: 35%;
+}
+
+#submit {
+  width: 65%;
+  margin: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
+
+#comment {
+  text-align: center;
+}
+
+.wide-input,
+#dropdown {
+  width: 95%;
+  height: 35px;
+  padding-left: 15px;
+}
+
+input {
+  display: block;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#time-label {
+  margin: 20px auto;
+}

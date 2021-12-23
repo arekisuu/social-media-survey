@@ -1,0 +1,68 @@
+<html>
+<head>
+  <title>Social Media Usage Survey</title>
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<header id="header">
+  <h1 id="title">Social Media Usage Survey</h1>
+  <p id="description">Thank you for taking part in our little survey. Please answer sincerely.</p>
+</header>
+<form id="survey-form">
+  <label id="name-label" for="name"><strong>Name</strong></label>
+  <input type="text" name="name" id="name" placeholder="Enter your name" required class="wide-input" /><br>
+  <label id="email-label" for="email"><strong>Email</strong></label>
+  <input type="email" name="email" id="email" placeholder="Enter your email" required class="wide-input" /><br>
+  <label id="number-label" for="number"><strong>Age</strong></label>
+  <input type="number" name="number" id="number" min="13" max="99" placeholder="Enter your age" required class="wide-input" /><br>
+  <div>
+    <label for="gender"><strong>Gender</strong></label>
+    <label>
+      <input name="gender" value="male" type="radio" checked />Male</label>
+    <label>
+      <input name="gender" value="female" type="radio" />Female</label>
+    <label>
+      <input name="gender" value="nonb" type="radio" />Non-binary</label>
+    <label>
+      <input name="gender" value="preferno" type="radio" />Prefer not to say</label>
+  </div>
+  <div id="time-label">
+    <label for="dropdown"><strong>How much time do you spend on social media per week?</strong></label>
+    <select id="dropdown" required class="wide-input">
+      <option disabled selected value>Time spent/week</option>
+      <option value="3minus">3 Hours or Less</option>
+      <option value="4to10">4 to 10 Hours</option>
+      <option value="11to39">11 to 39 Hours</option>
+      <option value="40plus">40 Hours or More</option>
+    </select>
+  </div>
+
+  <div>
+    <label><strong>Which of these social media are you active on?</strong></label>
+    <label>
+      <input name="smedia" value="fb" type="checkbox" />Facebook</label>
+    <label>
+      <input name="smedia" value="yt" type="checkbox" />YouTube</label>
+    <label>
+      <input name="smedia" value="wpp" type="checkbox" />Whatsapp</label>
+    <label>
+      <input name="smedia" value="insta" type="checkbox" />Instagram</label>
+    <label>
+      <input name="smedia" value="tiktok" type="checkbox" />TikTok</label>
+    <label>
+      <input name="smedia" value="tt" type="checkbox" />Twitter</label>
+    <label>
+      <input name="smedia" value="other" type="checkbox" />Others</label>
+  </div>
+
+  <div id="comment">
+    <label><strong>Any comments or suggestions?</strong></label>
+    <textarea id="comments" name="comment" placeholder="Enter your comment here..." rows="12"></textarea>
+
+    <button type="submit" id="submit">
+      Submit
+    </button>
+  </div>
+</form>
+
+</html>
